@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Category_List</title>
+</head>
+<body>
+<h1> Category-List </h1>
+
+<table>
+    <tr>
+        <th> Category </th>
+    </tr>
+    <td> {% for obj in category %}</td>
+    <tr>
+        <td>{{ obj.category_name }}</td>
+    </tr>
+    {% endfor %}
+</table>
+    <!--<ul>-->
+        <!--{% for obj in category %}-->
+        <!--<li>{{ obj.category_name }}</li>-->
+        <!--{% endfor %}-->
+    <!--</ul>-->
+
+</body>
+</html>
